@@ -10,6 +10,14 @@ namespace cis237inclass2
     {
         static void Main(string[] args)
         {
+            Factorial calcFactorial = new Factorial();
+
+            Console.WriteLine("Solve 5!");
+            Console.WriteLine("Answer: ");
+            Console.WriteLine(calcFactorial.CalculateFactorial(60).ToString());
+            Console.WriteLine();
+
+            Console.ReadLine();
         }
     }
 }
